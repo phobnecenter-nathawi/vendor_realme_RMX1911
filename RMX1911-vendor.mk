@@ -85,9 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1911/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/realme/RMX1911/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/realme/RMX1911/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
-	vendor/realme/RMX1911/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-	vendor/realme/RMX1911/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-	vendor/realme/RMX1911/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so
+    vendor/realme/RMX1911/proprietary/vendor/bin/time_daemon:system/bin/time_daemon \
+    vendor/realme/RMX1911/proprietary/vendor/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/realme/RMX1911/proprietary/vendor/lib64/libtime_genoff.so:system/lib64/libtime_genoff.so
 
 PRODUCT_PACKAGES += \
     libantradio \
